@@ -1,0 +1,353 @@
+@import url(font.css);
+
+/* reset */
+body {
+  font-family: 'VarelaRound', sans-serif;
+  color: gray;
+  box-sizing: border-box;
+}
+body, header, footer, div, span, h1, h2, section, dl, dd, p, ul, li, em {
+  margin: 0;
+  padding: 0;
+}
+/* wrap */
+#wrap {
+  width: 960px;
+  margin: 0 auto;
+}
+/* common */
+img {
+  border: 0;
+}
+.top, .name, .row dt, .back {
+  font-weight: 700;
+}
+.head-line, .main-02-headline,
+ .quote .row dt {
+  color: #222222;
+}
+.head-desc, .ocean-desc,
+.content-02-desc, .row dd {
+  color: #868686;
+}
+.contents-photo:after, .contents-photo::after,
+.controller:after, .controller::after,
+.quote:after, .quote::after,
+.row:after,.row::after,
+.sns-link:after, .sns-link::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/*.top {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.head-line, .head-desc, .ocean-desc, .main-02-headline,
+.content-02-desc, .quote, .content-03 {
+  padding-left: 120px;
+  padding-right: 240px;
+}*/
+
+/*****************
+      main
+******************/
+.header {
+  padding-top: 60px;
+}
+.top {
+  padding: 10px 120px;
+}
+.top span {
+  font-size: 0.8rem;
+  letter-spacing: -1px;
+}
+.fashion {
+  color: #1f4ba5;
+}
+.time {
+  padding-left: 20px;
+  color: #b8b8b8;
+}
+.author {
+  float: right;
+  color: #9e9e9e;
+}
+.author em {
+  padding-right: 5px;
+  font-size: 0.7rem;
+  color: #a6a6a6;
+}
+.head-line {
+  padding: 0 360px 0 120px;
+  font-size: 2.9rem;
+}
+.head-desc {
+  font-family: "PT-Serif Italic";
+  font-weight: 200;
+  padding: 45px 275px 45px 120px;
+  font-size: 1.45rem;
+  position: relative;
+}
+.head-desc::before {
+  content: url('../Article-assets/icon-bookmarks.svg');
+  display: block;
+  position: absolute;;
+  top: 44px;
+  left: 80px;
+  color: #1f4ba5;
+}
+
+/*****************
+      main
+******************/
+/* main-contents-01 */
+.blue-ocean {
+  padding: 25px 0 25px 120px;
+  font-size: 0.8rem;
+  font-family: "PT-Serif Regular";
+  color: #dedede;
+}
+.ocean-desc {
+  padding: 10px 240px 55px 120px;
+  line-height: 1.5em;
+}
+
+.contents-photo li {
+  float: left;
+  list-style-type: none;
+}
+.contents-photo img {
+  display: block;
+}
+.contents-photo p {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #c6c6c6;
+  letter-spacing: -1px;
+  padding: 20px 0;
+}
+.contents-photo em {
+  display: block;
+}
+
+/* controller */
+.controller {
+  padding-left: 120px;
+}
+.controller > div {
+  width: 60px;
+  height:60px;
+  float: left;
+}
+.controller img {
+  border: 1px solid #ececec;
+  padding: 22px 25px;
+}
+.controller p {
+  float: left;
+}
+.pagenation {
+  padding: 19px 30px;
+  color: #969696;
+  font-size: 0.9em;
+  position: relative;
+}
+.pagenation span {
+  font-size: 0.7em;
+  position: absolute;
+  top: 18px;
+  right: 8px;
+}
+
+/* main-contents-02 */
+.content-02 {
+  margin-top: 50px;
+}
+.main-02-headline {
+  padding-left: 120px;
+  padding-right: 240px;
+  font-size: 1.9rem;
+  font-weight: 200;
+}
+.content-02-desc {
+  padding: 50px 240px 50px 120px;
+  line-height: 1.5em;
+}
+.main02-desc01 {
+  color: #868686;
+}
+.main02-desc02 {
+  color: #9e9e9e;
+}
+
+.quote {
+  padding-left: 120px;
+  padding-right: 240px;
+  font-family: "PT-Serif BoldItalic";
+  position: relative;
+}
+q {
+  width:360px;
+  float: left;
+  color: #313131;
+  font-size: 1.04em;
+  line-height: 1.5em;
+}
+q::before {
+  content: url('../Article-assets/icon-quote.svg');
+  position: absolute;
+  top: 0;
+  left: 75px;
+}
+.photo-inform {
+  width: 240px;
+  float: left;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.name {
+  padding-top: 20px;
+  font-family: "VarelaRound";
+  font-size: 0.9rem;
+  color: #222222;
+}
+.country {
+  color: #b8b8b8;
+  font-size: 0.7rem;
+  line-height: 2em;
+}
+
+/* main-contents-03 */
+.photo-wolf {
+  padding-left: 120px;
+  padding-right: 240px;
+}
+.photo-wolf dd {
+  position: relative;
+}
+.photo-wolf > dd:first-child:before,
+.photo-wolf > dd:first-child::before {
+  content: "1:23:34";
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #aeaeaf;
+  font-size: 0.7em;
+}
+.photo-wolf > dd:first-child:after,
+.photo-wolf > dd:first-child::after {
+  content: url('../Article-assets/icon-play.svg');
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+}
+.photo-wolf dd:last-child {
+  padding: 20px 240px 20px 240px;
+  font-family: "PT-Serif Italic";
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.row {
+  padding: 29px 240px 26px 120px;
+  font-family: "VarelaRound";
+}
+.col-01 {
+  width: 298px;
+  float: left;
+  padding-right: 35px;
+  box-sizing: border-box;
+}
+.col-02 {
+  width: 302px;
+  float: left;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.row dt {
+  color: #222222;
+  font-size: 1.05em;
+}
+.row dd {
+  font-size: 0.95em;
+  line-height: 1.5em;
+  padding: 20px 0;
+}
+
+/* footer */
+.footer {
+  padding-bottom: 102px;
+  font-size: 0.7rem;
+}
+.sns-link {
+  padding-left: 120px;
+}
+.sns {
+  border-radius: 50em;
+  width: 85px;
+  height: 30px;
+  float: left;
+  text-align: right;
+  color: #fff;
+  padding: 10px 20px 10px 0;
+  margin-right: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+.facebook {
+  background: #215b9a;
+}
+.facebook:before,
+.facebook::before {
+  content: url('../Article-assets/icon-facebook.png');
+  position: absolute;
+  top: 7px;
+  left: 12px;
+}
+.twitter {
+  background: #00adf2;
+}
+.twitter:before,
+.twitter::before {
+  content: url('../Article-assets/icon-twitter.png');
+  position: absolute;
+  top: 7px;
+  left: 12px;
+}
+.google-plus {
+  background: #ce4435;
+}
+.google-plus:before,
+.google-plus::before {
+  content: url('../Article-assets/icon-google+.png');
+  position: absolute;
+  top: 7px;
+  left: 12px;
+}
+.pinterest {
+  background: #e51616;
+}
+.pinterest:before,
+.pinterest::before {
+  content: url('../Article-assets/icon-pinterest.png');
+  position: absolute;
+  top: 7px;
+  left: 12px;
+}
+
+.back {
+  margin: 43px 0 0 140px;
+  box-sizing: border-box;
+  display: inline-block;
+  text-decoration: none;
+  color: #516db3;
+  position: relative;
+}
+.back:before,
+.back::before {
+  content: url('../Article-assets/icon-back.svg');
+  position: absolute;
+  left: -20px
+}

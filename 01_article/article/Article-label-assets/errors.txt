@@ -1,0 +1,2 @@
+[Wed Oct 05 2016 22:18:27 GMT+0900 (대한민국 표준시)] layer "icon-google+": Expected end of input but "+" found.
+[Wed Oct 05 2016 22:18:27 GMT+0900 (대한민국 표준시)] layer "Google+": Expected end of input but "+" found.
