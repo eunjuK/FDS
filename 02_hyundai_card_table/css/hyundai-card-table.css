@@ -1,0 +1,84 @@
+body, table, caption, tr, th, td, ul, li {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 1360px;
+  min-width: 820px;
+  margin: 6rem auto;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.ym_tr {
+  font-family: "YouandiModernTR";
+}
+.ym_tb {
+  font-family: "YouandiModernTB";
+}
+.ym_heb {
+  font-family: "YouandiModernHEB";
+}
+.readable-hidden {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+.reset-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.rwd-img {
+  width: 100%;
+  height: auto;
+}
+
+/* hd-curture-project-table */
+.hd-curture-project-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 auto;
+  border-top: 2px solid #555555;
+}
+
+th, td {
+  border: 1px solid #cccccc;
+}
+tr:nth-child(2) > th:last-child {
+  border-right: 0;
+}
+th {
+  border-left: 0;
+  text-align: left;
+}
+td {
+  border-right: 0;
+}
+
+.hd-curture-project-table th,
+.hd-curture-project-table td {
+  padding: 1.6em 2em;
+}
+
+.hd-curture-project-table li:before,
+.hd-curture-project-table li::before {
+  content: "- ";
+  color: #666666;
+}
+.hd-curture-project-table a {
+  color: #4b90de;
+  text-decoration: none;
+}
+.hd-curture-project-table a:hover,
+.hd-curture-project-table a:focus {
+  padding-bottom: 2px;
+  border-bottom: 1px solid;
+}
+
+.hd-curture-project-img {
+  margin-bottom: 6rem;
+}

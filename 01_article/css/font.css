@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Oswald Bold;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Oswald Bold"), local("Oswald Regular"), local("Oswald Light"),
+  url(../font/Oswald/Oswald-Bold.eot),
+  url(../font/Oswald/Oswald-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: Oswald Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Oswald Regular"), local("Oswald Bold"), local("Oswald Light"),
+  url(../font/Oswald/Oswald-Bold.eot),
+  url(../font/Oswald/Oswald-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: Oswald Light;
+  font-style: normal;
+  font-weight: 100;
+  src: local("Oswald Light"), local("Oswald Regular"), local("Oswald Bold"),
+  url(../font/Oswald/Oswald-Bold.eot),
+  url(../font/Oswald/Oswald-Bold.woff) format("woff");
+}
+
+
+
+@font-face {
+  font-family: PT-Serif Bold;
+  font-style: normal;
+  font-weight: 700;
+  src: local("PT-Serif Bold"), local("PT-Serif Regular"), local("PT-Serif BoldItalic"), local("PT-Serif Italic"),
+  url(../font/PT_Serif/PT_Serif-Web-Bold.eot),
+  url(../font/PT_Serif/PT_Serif-Web-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: PT-Serif Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT-Serif Regular"), local("PT-Serif Bold"), local("PT-Serif BoldItalic"), local("PT-Serif Italic"),
+  url(../font/PT_Serif/PT_Serif-Web-Regular.eot),
+  url(../font/PT_Serif/PT_Serif-Web-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: PT-Serif Italic;
+  font-style: italic;
+  font-weight: 400;
+  src: local("PT-Serif Italic"), local("PT-Serif Bold"), local("PT-Serif Regular"), local("PT-Serif BoldItalic"), local("PT-Serif Italic"),
+  url(../font/PT_Serif/PT_Serif-Web-Italic.eot),
+  url(../font/PT_Serif/PT_Serif-Web-Italic.woff) format("woff");
+}
+@font-face {
+  font-family: PT-Serif BoldItalic;
+  font-style: italic;
+  font-weight: 700;
+  src: local("PT-Serif BoldItalic"), local("PT-Serif Bold"), local("PT-Serif Regular"), local("PT-Serif Italic"),
+  url(../font/PT_Serif/PT_Serif-Web-BoldItalic.eot),
+  url(../font/PT_Serif/PT_Serif-Web-BoldItalic.woff) format("woff");
+}
+
+
+@font-face {
+  font-family: VarelaRound;
+  font-style: normal;
+  font-weight: 400;
+  src: local("VarelaRound"),
+  url(../font/Varela_Round/VarelaRound-Regular.eot),
+  url(../font/Varela_Round/VarelaRound-Regular.woff) format("woff");
+}
