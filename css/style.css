@@ -1,0 +1,26 @@
+body, div, h1, a {
+  margin: 0;
+  padding: 0;
+}
+.wrap {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrap h1 {
+  padding: 1em;
+}
+.wrap a {
+  text-decoration: none;
+  color: #737373;
+  display: block;
+  padding: 0.5em;
+  font-weight: 700;
+}
+.wrap a:hover, .wrap a:focus {
+  cursor: pointer;
+  color: #129843;
+}
