@@ -1,0 +1,251 @@
+/* header */
+.header {
+  height: 80px;
+}
+.logo {
+  padding: 30px 65px 30px 80px;
+  box-sizing: border-box;
+  position: relative;
+}
+.icon-hamberger {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.menu-bar li {
+  float: left;
+}
+.menu-bar {
+  padding: 30px 0;
+}
+.menu-bar a {
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: 42.7px;
+  color: #222222;
+  top: 3px;
+}
+.label {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #1f4ba5;
+  color: #f5f6fa;
+}
+.icon-bar a {
+  float: right;
+  display: inline-block;
+  padding: 30px 20px 30px 20px;
+}
+.icon-bag {
+  position: relative;
+}
+.label {
+  font-size: 0.56rem;
+  line-height: 1rem;
+  text-align: center;
+  position: absolute;
+  top: 22px;
+  right: 20px;
+}
+.icon-bar a:last-child {
+  padding-right: 30px;
+}
+
+/* section: slide-box */
+.slide-box {
+  height: 480px;
+}
+.slider-content {
+  background: url('../images/photo-slider-content.png') no-repeat;
+  height: inherit;
+  position: relative;
+}
+[class*="slides-"] {
+  height: 120px;
+}
+[class*="slides-"] > a {
+  display: inline-block;
+  height: 120px;
+}
+[class*="slides-"] > a::hover,
+[class*="slides-"] > a:focus {
+  opacity: .5;
+}
+[class*="slides-"] > a:hover::before,
+[class*="slides-"] > a:focus::before {
+  content: '';
+  display: block;
+
+}
+.slider-content > a {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.arrow-left {
+  left: 30px;
+}
+.arrow-right {
+  right: 30px;
+}
+.content {
+  position: absolute;
+  top: 120px;
+  left: 120px;
+}
+.banner-title {
+  color: #1f4ba5;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  margin-top: -2px;
+}
+.content > h1 {
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-left: -2px;
+  width: 240px;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.slide-box .banner-desc {
+  color: #868686;
+}
+.banner-price,
+.content > button {
+  border: 0;
+  background: #1f4ba5;
+  float: left;
+  height: 30px;
+  font-size: 0.75rem;
+  line-height: 1.875rem;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 33px;
+}
+.banner-price {
+  width: 70px;
+  font-weight: 700;
+  border-radius: 50px 0 0 50px;
+}
+.content > button {
+  width: 95px;
+  border-radius: 0 50px 50px 0;
+  border-left: 1px solid #365dae;
+}
+
+/* section: banner */
+.banner-box { height: 240px; }
+.banner { position: relative; }
+.banner-box .banner-title,
+.banner-box .banner-desc,
+.big-spring-sale, .product {
+  display: block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.banner-box .banner-desc {
+  color: #222222;
+}
+.banner-box .women {
+  top: 120px;
+}
+.banner-box .men {
+  top: 40px;
+}
+.banner-box .accessories {
+  top: 145px;
+}
+.big-spring-sale {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  color: #222222;
+  top: 140px;
+}
+.product {
+  top: 180px;
+  color: #969595;
+}
+.banner .banner-desc {
+  top: 175px;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.banner .last-winter {
+  width: 155px;
+  margin: 0 auto;
+}
+.banner .new-hats {
+  width: 150px;
+}
+
+
+/* section: featured-box */
+.featured-row .col-2 {
+  height: 240px;
+  display: block;
+  position: relative;
+  text-align: center;
+}
+.featured-row .col-2 > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.featured-row .col-2 > span {
+  display: inline-block;
+  position: absolute;
+  bottom: 15px;
+  transform: translate(-50%, -50%);
+}
+.featured-header .title {
+  padding-top: 80px;
+  width: 100px;
+  margin: 0 auto;
+}
+.featured-header > p {
+  width: 80px;
+  color: #868686;
+  font-weight: 700;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.featured-title {
+  box-sizing: border-box;
+  padding-top: 30px;
+  margin: 0 auto;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-top: -2px;
+  color: #222222;
+}
+.featured-02 > h2 {
+  width: 145px;
+}
+.featured-03 > h2 {
+  width: 115px;
+}
+.featured-05 > h2 {
+  width: 140px;
+}
+.featured-06 > h2 {
+  width: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
