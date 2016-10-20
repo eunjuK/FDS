@@ -1,0 +1,47 @@
+body, header, nav, section, main, footer,
+ul, li, a, h1, h2, h3, h4, h5, h6,
+div, span, p, img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*font-family: 'Questrial', sans-serif;*/
+  font-family: 'Varela Round', sans-serif;
+}
+body a {
+  text-decoration: none;
+}
+body ul {
+  list-style: none;
+}
+
+.readable-hidden {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+.clearfix {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.except-f-width {
+  height: 100vh;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+.pcenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pcenter-left {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
